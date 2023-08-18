@@ -27,5 +27,5 @@ jobs:
         run: |
           curl --location 'https://api.github.com/repos/trialuser543/test-repository/actions/workflows/65924802/dispatches' \
           --header 'Content-Type: application/json' \
-          --header 'Authorization: Bearer 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' \
+          --header 'Authorization: Bearer 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' \
           --data '{"ref": "main"}'
