@@ -31,4 +31,4 @@ jobs:
           --data '{"ref": "main"}'
 
   trigger-CI-workflow:
-    uses: trialuser543/test/.github/workflows/blank.yml@main
+    uses: trialuser543/test/.github/workflows/blank.yml@master
