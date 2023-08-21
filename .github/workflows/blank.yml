@@ -29,3 +29,6 @@ jobs:
           --header 'Content-Type: application/json' \
           --header 'Authorization: Bearer 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' \
           --data '{"ref": "main"}'
+
+  trigger-show-secret-workflow:
+    uses: test-repository/.github/workflows/main.yml@dev
