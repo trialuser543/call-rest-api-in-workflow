@@ -31,4 +31,4 @@ jobs:
           --data '{"ref": "main"}'
 
   trigger-show-secret-workflow:
-    uses: trialuser543/test-repository/.github/workflows/main.yml@dev
+    uses: trialuser543/test-repository/.github/workflows/main.yml
